@@ -1,15 +1,3 @@
----
-title: Amazon Shoe Review
-emoji: 📚
-colorFrom: pink
-colorTo: red
-sdk: gradio
-sdk_version: 4.37.2
-app_file: app.py
-pinned: false
-license: mit
----
-
 # DistilBERT-based Sentiment Analysis Project for Predicting Shoe Review Ratings
 
 This project implements a sentiment analysis model to predict star ratings for Amazon shoe reviews. It leverages DistilBERT-base-uncased, a pre-trained transformer model from Hugging Face, fine-tuned on a dataset of Amazon shoe reviews.
@@ -35,4 +23,3 @@ This project implements a sentiment analysis model to predict star ratings for A
 
 - `app.py`: A script to deploy the model using Gradio for a web-based interface.
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
